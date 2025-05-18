@@ -52,7 +52,7 @@ p {
   
   .nav-button {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 0.25px 7px;
     font-size: 13px;
     border-radius: 5px;
@@ -96,7 +96,8 @@ p {
   .education-details {
     font-family: monospace;
     max-width: 400px;
-    margin-left: 20px;
+    margin-left: 350px;
+    margin-right: auto;
     font-size: 14px;
     line-height: 1.6;
     padding: 15px;
