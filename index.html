@@ -9,10 +9,11 @@
 </head>
 
 <body>
+    <header> <h1 class="typing" id="typed-name"></h1> <br>
+        <h4 class="typing2" id="typed-field"></h4></header>
 
-    <pre><h1><center>Ryo Ikeda</center></h1></pre>
 
-    <h4><pre><center>Applied Mathematics and Computer Science @ University of Michigan</center></pre></h2>
+   
         
 
 
@@ -22,13 +23,53 @@
         the intersection of finance and technology. 
         
         I am a continuous learner. I grew up in Japan and the United States! I am a 
-        Japanese-English bilingual, immigrant, and explorer of the world.I love traveling,
+        Japanese-English bilingual, immigrant, and explorer of the world. I love traveling,
          running, and listening to music! </center> </pwp>
 
 
  
         <br><center>I am interested in anything! Reach out at ryoikeda@umich.edu!</center>
         <br>
+
+
+
+        <script>
+            const text = "Ryo Ikeda";
+            const element = document.getElementById("typed-name");
+            let index = 0;
+          
+            function typeLetter() {
+                if (index < text.length) {
+                    element.textContent += text.charAt(index);
+                    index++;
+                    setTimeout(typeLetter, 150); // typing speed in ms
+                    element.style.animation = 'none';
+                    element.style.opacity = '1';  
+                }
+            }
+          
+            typeLetter();
+          </script>
+          
+          <script>
+            const text2 = "Applied Mathematics and Computer Science @ University of Michigan";
+            const element2 = document.getElementById("typed-field");
+            let index2 = 0;
+          
+            function typeLetter2() {
+                if (index2 < text2.length) {
+                    element2.textContent += text2.charAt(index2); // fixed this line
+                    index2++;
+                    setTimeout(typeLetter2, 50);
+                    element2.style.animation = 'none';
+                    element2.style.opacity = '1';  //
+                }
+            }
+          
+            typeLetter2();
+          </script>
+
+
 
 </body>
 
