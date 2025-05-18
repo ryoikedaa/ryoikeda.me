@@ -1,21 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f9f9f9;
-    color: #333;
-    padding: 2rem;
+    background-color:lightsteelblue;
+}
+h1{
+    color:black;
+
+}
+
+p {
+    color: black;
+}
+
+.typing {
+    font-family: monospace;
+    font-size: 2em;
+    text-align: center;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    margin: 0 auto;
+    animation: blink 0.7s step-end infinite;
   }
   
-  .container {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  .typing2 {
+    font-family: monospace;
+    font-size: 1em;
+    text-align: center;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    margin: 0 auto;
+    animation: blink 0.4s step-end infinite; /* faster blink */
   }
   
-  a {
-    color: #007acc;
-    text-decoration: none;
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
   }
+  
   
