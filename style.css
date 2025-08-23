@@ -97,8 +97,6 @@ p {
     position: relative;
     font-family: monospace;
     max-width: 400px;
-    margin-left: 350px;
-    margin-right: auto;
     font-size: 14px;
     line-height: 1.6;
     padding: 15px;
@@ -115,3 +113,10 @@ p {
     width: 40px; 
     height: auto;
   }
+
+  .education-container {
+    display: flex;
+    justify-content: center; /* center bubbles horizontally */
+    gap: 30px;               /* space between bubbles */
+    flex-wrap: wrap;         /* wrap to next line on small screens */
+}
