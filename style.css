@@ -9,6 +9,14 @@ p {
     color: black;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  z-index: 100;
+  padding: 15px 0;
+}
+
 
 .typing {
     font-family: monospace;
@@ -94,12 +102,14 @@ p {
   }
   
   .education-details {
+
     position: relative;
     font-family: monospace;
-    max-width: 400px;
+    max-width: 700px;
+    width: 80%;
     font-size: 14px;
-    line-height: 1.6;
-    padding: 15px;
+    line-height: 1.2;
+    padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: #f2f2f2;
@@ -119,4 +129,78 @@ p {
     justify-content: center; /* center bubbles horizontally */
     gap: 30px;               /* space between bubbles */
     flex-wrap: wrap;         /* wrap to next line on small screens */
+}
+
+.experience-container {
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.experience-item {
+  border: 2px solid black;
+  border-left: 4px solid goldenrod; /* Accent Line */
+  border-radius: 6px;
+  padding: 18px 20px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+.experience-item h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.experience-item p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.experience-item ul {
+  padding-left: 20px;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.experience-item li {
+  margin-bottom: 6px;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+body.dark-mode .nav-button {
+  color: white;
+}
+body.dark-mode .nav-button:hover {
+  background-color: gold;
+  color: black;
+}
+
+.experience-item h3,
+.experience-item p,
+.experience-item li {
+    font-family: monospace;   /* match your other sections */
+    color: black;             /* make text consistent */
+}
+
+.experience-item span {
+    font-family: monospace;
+    color: black;
+}
+.skills-list {
+    list-style-type: disc;      /* simple bullet points */
+    max-width: 600px;
+    margin: 0 auto;
+       /* standard indent for bullets */
+    text-align: left;           /* align bullets nicely */
+    font-family: monospace;     /* match the rest of your portfolio */
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
 }
