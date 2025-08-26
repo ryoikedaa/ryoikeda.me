@@ -45,7 +45,7 @@ nav {
     overflow: hidden;
     width: fit-content;
     margin: 0 auto;
-    animation: blink 0.4s step-end infinite; /* faster blink */
+    animation: blink 0.4s step-end infinite;
   }
   
   @keyframes blink {
@@ -126,9 +126,9 @@ nav {
 
   .education-container {
     display: flex;
-    justify-content: center; /* center bubbles horizontally */
-    gap: 30px;               /* space between bubbles */
-    flex-wrap: wrap;         /* wrap to next line on small screens */
+    justify-content: center; 
+    gap: 30px;              
+    flex-wrap: wrap;       
 }
 
 .experience-container {
@@ -139,7 +139,7 @@ nav {
 
 .experience-item {
   border: 2px solid black;
-  border-left: 4px solid goldenrod; /* Accent Line */
+  border-left: 4px solid goldenrod; 
   border-radius: 6px;
   padding: 18px 20px;
   margin-bottom: 18px;
@@ -185,11 +185,11 @@ body.dark-mode .nav-button:hover {
 .experience-item h3,
 .experience-item p,
 .experience-item li {
-    font-family: monospace;   /* match your other sections */
-    color: black;             /* make text consistent */
+    font-family: monospace; 
+    color: black;      
 }
 .experience-item {
-  border-bottom: 2px solid black; /* horizontal line */
+  border-bottom: 2px solid black;
   padding-bottom: 15px;
   margin-bottom: 20px;
 }
@@ -199,12 +199,12 @@ body.dark-mode .nav-button:hover {
     color: black;
 }
 .skills-list {
-    list-style-type: disc;      /* simple bullet points */
+    list-style-type: disc;    
     max-width: 600px;
     margin: 0 auto;
-       /* standard indent for bullets */
-    text-align: left;           /* align bullets nicely */
-    font-family: monospace;     /* match the rest of your portfolio */
+     
+    text-align: left;           
+    font-family: monospace;     
     font-size: 15px;
     line-height: 1.6;
     color: black;
