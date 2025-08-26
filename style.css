@@ -188,6 +188,11 @@ body.dark-mode .nav-button:hover {
     font-family: monospace;   /* match your other sections */
     color: black;             /* make text consistent */
 }
+.experience-item {
+  border-bottom: 2px solid black; /* horizontal line */
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
 
 .experience-item span {
     font-family: monospace;
